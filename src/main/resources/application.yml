@@ -3,10 +3,10 @@ spring:
     name: eureka-discovery-service
 
 server:
-  port: 8084
+  port: 8095
 eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
     service-url:
-      defaultZone: http://localhost:8084/eureka
+      defaultZone: http://localhost:8095/eureka
